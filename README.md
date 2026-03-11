@@ -28,6 +28,3 @@ Criação de máquinas virtuais para testes de sistemas.
 
 ## Objetivo
 Desenvolver experiência prática em suporte técnico e infraestrutura de TI.
-
-Desenvolver experiência prática em suporte técnico e infraestrutura de TI.
-
