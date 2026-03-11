@@ -4,10 +4,11 @@ Estou iniciando minha carreira na área de suporte de TI e estou desenvolvendo h
 
 - Instalação e configuração de Windows
 - Troubleshooting de computadores
-- Configuração de redes
+- Configuração básica de redes
 - Suporte técnico ao usuário
+- Diagnóstico de problemas de hardware e software
 
-# Ferrramentas que eu estou estudando
+# Ferramentas e tecnologias
 
 - Windows 10 / 11
 - VirtualBox
