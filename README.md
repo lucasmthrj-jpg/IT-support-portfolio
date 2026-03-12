@@ -1,8 +1,7 @@
 # IT-support-portfolio
-Oi! Meu nome é Lucas.
-Estou iniciando minha carreira na área de suporte de TI e estou desenvolvendo habilidades em:
+Oi! Meu nome é Lucas. Estou iniciando minha carreira na área de suporte de TI e estou desenvolvendo habilidades em:
 
-- Instalação e configuração de Windows
+- [Instalação e Configuração do Windows](01-instalacao-windows)
 - Troubleshooting de computadores
 - Configuração básica de redes
 - Suporte técnico ao usuário
