@@ -17,14 +17,17 @@ Criar um ambiente virtual para praticar a instalação de sistema operacional e 
 Nesta etapa, foi preparado o hardware virtual para receber o sistema operacional.
 
 ![Configuração de Hardware](img/configuracao-hardware-vm.png)
+
 *Ajuste de memória RAM e processadores.*
 
 ![Criação da Máquina Virtual](img/criacao-maquina-virtual.png1.png)
+
 *Definição do nome e tipo de sistema.*
 
 ![Inicialização da VM](img/instalador-windows-vm.png3.png)
 
 ![Boot da VM](img/instalador-windows-vm.png4.png)
+
 *Montagem da imagem ISO no drive virtual.*
 
 ---
