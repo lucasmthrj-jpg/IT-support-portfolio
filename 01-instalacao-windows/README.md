@@ -116,7 +116,7 @@ Criar um ambiente virtual para praticar instalação de sistema operacional e co
 
 Sistema operacional Windows 11 instalado com sucesso em uma máquina virtual.
 
-01-instalacao-windows/18-windows-instalado-desktop.png21.png
+![Desktop do Windows](01-instalacao-windows/18-windows-instalado-desktop.png21.png)
 
 ---
 
