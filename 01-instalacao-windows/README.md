@@ -14,12 +14,14 @@ Criar um ambiente virtual para praticar instalação de sistema operacional e co
 
 1. Abrir o Oracle VirtualBox
 2. Clicar em **Novo**
+
+![Criação da máquina virtual](criacao-maquina-virtual.png1.png)
+
 3. Definir o nome da máquina virtual
 4. Selecionar o sistema operacional **Windows 11 (64-bit)**
-5. Configurar memória RAM
-6. Configurar número de CPUs
-7. Criar um disco virtual
-8. Selecionar a imagem ISO do Windows 11
+5. Configurar memória RAM e número de CPUs
+6. Criar um disco virtual
+7. Selecionar a imagem ISO do Windows 11
 
 ## Instalação do Windows
 
