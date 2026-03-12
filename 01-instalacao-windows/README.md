@@ -16,23 +16,32 @@ Criar um ambiente virtual para praticar a instalação de sistema operacional e 
 
 Nesta etapa, foi preparado o hardware virtual para receber o sistema operacional.
 
-![Configuração de Hardware](img/configuracao-hardware-vm.png)
-
-*Ajuste de memória RAM e processadores.*
-
 ![Criação da Máquina Virtual](img/criacao-maquina-virtual.png1.png)
 
-*Definição do nome e tipo de sistema.*
+
+*Definição do nome da máquina virtual e do sistema operacional.*
+
+![Configuração de Hardware](img/configuracao-hardware-vm.png)
+
+
+*Ajuste de memória RAM e número de processadores.*
+
+---
+
+## 2. Inicialização da Máquina Virtual
+
+Após criar a VM, foi iniciada utilizando a imagem ISO do Windows 11.
 
 ![Inicialização da VM](img/instalador-windows-vm.png3.png)
 
 ![Boot da VM](img/instalador-windows-vm.png4.png)
 
-*Montagem da imagem ISO no drive virtual.*
+
+*Montagem da imagem ISO e inicialização do instalador do Windows.*
 
 ---
 
-## 2. Passo a Passo da Instalação do Windows 11
+## 3. Instalação do Windows 11
 
 Processo de configuração do disco e instalação dos arquivos do sistema.
 
@@ -78,9 +87,9 @@ Processo de configuração do disco e instalação dos arquivos do sistema.
 
 ---
 
-## 3. Configuração Inicial (OOBE)
+## 4. Configuração Inicial do Sistema (OOBE)
 
-Configurações de usuário e personalização pós-instalação.
+Configurações iniciais após a instalação do Windows.
 
 ### Região e teclado
 
