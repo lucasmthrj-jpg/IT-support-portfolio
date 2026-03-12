@@ -6,9 +6,9 @@ Criar um ambiente virtual para praticar a instalação de sistema operacional e 
 ---
 
 ## Ferramentas utilizadas
-* Oracle VirtualBox
-* ISO do Windows 11
-* Computador host (Windows)
+- Oracle VirtualBox
+- ISO do Windows 11
+- Computador host (Windows)
 
 ---
 
@@ -16,15 +16,27 @@ Criar um ambiente virtual para praticar a instalação de sistema operacional e 
 
 Nesta etapa, foi preparado o hardware virtual para receber o sistema operacional.
 
+### Ajuste de memória RAM e processadores
+
 ![Configuração de Hardware](img/configuracao-hardware-vm.png)
-*Ajuste de memória RAM e Processadores.*
 
-![Criação da Máquina Virtual](img/criacao-maquina-virtual.png1.png)
-*Definição do nome e tipo de sistema.*
+*Ajuste da quantidade de memória RAM e número de CPUs da máquina virtual.*
 
-![Instalador da VM Parte 1](img/instalador-windows-vm.png3.png)
-![Instalador da VM Parte 2](img/instalador-windows-vm.png4.png)
-*Montagem da imagem ISO no drive virtual.*
+---
+
+### Definição do nome e tipo de sistema
+
+![Criação da Máquina Virtual](img/criacao-maquina-virtual.png)
+
+*Definição do nome da máquina virtual, sistema operacional e versão.*
+
+---
+
+### Inicialização da máquina virtual
+
+![Inicialização da VM](img/inicializacao-vm.png)
+
+*A máquina virtual inicia carregando a imagem ISO do Windows.*
 
 ---
 
@@ -32,26 +44,45 @@ Nesta etapa, foi preparado o hardware virtual para receber o sistema operacional
 
 Processo de configuração do disco e instalação dos arquivos do sistema.
 
-1. **Opção de configuração:**
-![Opção de Instalação](img/02-opcao-instalar-windows.png5.png)
+### 1. Opção de instalação
 
-2. **Chave do produto:**
-![Product Key](img/03-product-key-windows.png6.png)
+![Opção de Instalação](img/02-opcao-instalar-windows.png)
 
-3. **Seleção da Edição:**
-![Edições](img/04-edicoes-windows.png7.png)
+---
 
-4. **Termos de Licença:**
-![Termos](img/05-termos-licenca-windows.png8.png)
+### 2. Chave do produto
 
-5. **Configuração de Disco:**
-![Seleção de Disco](img/06-selecao-disco-instalacao.png9.png)
+![Product Key](img/03-product-key-windows.png)
 
-6. **Pronto para Instalar:**
-![Pronto](img/07-pronto-para-instalar.png10.png)
+---
 
-7. **Andamento da Instalação:**
-![Instalação em andamento](img/08-instalacao-windows-andamento.png11.png)
+### 3. Seleção da edição do Windows
+
+![Edições](img/04-edicoes-windows.png)
+
+---
+
+### 4. Termos de licença
+
+![Termos](img/05-termos-licenca-windows.png)
+
+---
+
+### 5. Configuração de disco
+
+![Seleção de Disco](img/06-selecao-disco-instalacao.png)
+
+---
+
+### 6. Confirmação da instalação
+
+![Pronto para instalar](img/07-pronto-para-instalar.png)
+
+---
+
+### 7. Instalação em andamento
+
+![Instalação em andamento](img/08-instalacao-windows-andamento.png)
 
 ---
 
@@ -59,34 +90,49 @@ Processo de configuração do disco e instalação dos arquivos do sistema.
 
 Configurações de usuário e personalização pós-instalação.
 
-* **Região e Teclado:**
-![Região](img/09-configuracao-regiao.png12.png)
-![Layout Teclado](img/10-layout-teclado.png13.png)
-![Segundo Teclado](img/11-segundo-teclado.png14.png)
+### Região e teclado
 
-* **Nome do Dispositivo:**
-![Nome Dispositivo](img/12-nome-dispositivo.png15.png)
-![Aguardando Configuração](img/13-configuracao-dispositivo.png16.png)
+![Região](img/09-configuracao-regiao.png)
 
-* **Conta e Segurança:**
-![Login Microsoft](img/14-login-conta-microsoft.png17.png)
-![E-mail](img/15-login-conta-microsoft-email.png18.png)
-![Criação de Usuário](img/16-criacao-usuario-windows.png19.png)
-![Criação de Senha](img/17-criar-senha-usuario.png20.png)
+![Layout Teclado](img/10-layout-teclado.png)
+
+![Segundo Teclado](img/11-segundo-teclado.png)
+
+---
+
+### Nome do dispositivo
+
+![Nome Dispositivo](img/12-nome-dispositivo.png)
+
+![Aguardando Configuração](img/13-configuracao-dispositivo.png)
+
+---
+
+### Conta e segurança
+
+![Login Microsoft](img/14-login-conta-microsoft.png)
+
+![E-mail](img/15-login-conta-microsoft-email.png)
+
+![Criação de Usuário](img/16-criacao-usuario-windows.png)
+
+![Criação de Senha](img/17-criar-senha-usuario.png)
 
 ---
 
 ## Resultado Final
+
 Sistema operacional Windows 11 instalado com sucesso e pronto para uso.
 
-![Desktop do Windows](img/18-windows-instalado-desktop.png21.png)
+![Desktop do Windows](img/18-windows-instalado-desktop.png)
 
 ---
 
 ## Habilidades praticadas
-* Virtualização
-* Instalação de sistema operacional
-* Configuração de máquina virtual
-* Configuração inicial do Windows (OOBE)
-* Criação de utilizador local
-* Documentação técnica
+
+- Virtualização
+- Instalação de sistema operacional
+- Configuração de máquina virtual
+- Configuração inicial do Windows (OOBE)
+- Criação de utilizador local
+- Documentação técnica
