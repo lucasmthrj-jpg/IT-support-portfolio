@@ -2,7 +2,7 @@
 Oi! Meu nome é Lucas. Estou iniciando minha carreira na área de suporte de TI e estou desenvolvendo habilidades em:
 
 - [Instalação e Configuração do Windows](01-instalacao-windows)
-- Troubleshooting de computadores
+- [Troubleshooting de computadores](02-troubleshooting-computadores/)
 - Configuração básica de redes
 - Suporte técnico ao usuário
 - Diagnóstico de problemas de hardware e software
