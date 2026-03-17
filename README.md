@@ -10,23 +10,23 @@ O objetivo deste portfólio é demonstrar habilidades em diagnóstico e resoluç
 
 # Habilidades em desenvolvimento
 
-**Instalação e configuração do Windows**
+## Instalação e configuração do Windows
+→ Ver laboratório:  
+[Instalação do Windows](https://github.com/lucasmthrj-jpg/IT-support-portfolio/tree/main/01-instalacao-windows-vm)
 
-→ Ver laboratório: Instalação do Windows
+## Troubleshooting de computadores
+→ Ver laboratório:  
+[Computador sem acesso à internet](01-sem-internet-windows.md)
 
-**Troubleshooting de computadores**
+## Configuração básica de redes
+→ Ver laboratório:  
+[Configuração de DHCP em roteador wireless](https://github.com/lucasmthrj-jpg/IT-support-portfolio/tree/main/03-redes/configuracao-dhcp-roteador-wireless)
 
-→ Ver laboratório: Computador sem acesso à internet
+## Outras habilidades em desenvolvimento
 
-**Configuração básica de redes**
-
-→ Ver laboratório: Configuração de DHCP em roteador wireless
-
-**Suporte técnico ao usuário**
-
-**Diagnóstico de problemas de hardware e software**
-
-**Uso básico de Linux para administração e diagnóstico de sistemas**
+- Suporte técnico ao usuário
+- Diagnóstico de problemas de hardware e software
+- Uso básico de Linux para administração e diagnóstico de sistemas
 
 ---
 
@@ -49,7 +49,7 @@ O objetivo deste portfólio é demonstrar habilidades em diagnóstico e resoluç
 Documentação do processo de criação de máquina virtual e instalação do sistema operacional Windows.
 
 📂 Acessar laboratório:  
-https://github.com/lucasmthrj-jpg/IT-support-portfolio/tree/main/01-instalacao-windows-vm
+[Instalação e Configuração do Windows](https://github.com/lucasmthrj-jpg/IT-support-portfolio/tree/main/01-instalacao-windows-vm)
 
 ---
 
@@ -57,14 +57,14 @@ https://github.com/lucasmthrj-jpg/IT-support-portfolio/tree/main/01-instalacao-w
 
 Laboratórios práticos simulando problemas comuns encontrados no suporte técnico.
 
-Casos documentados:
+### Casos documentados
 
-Computador sem acesso à internet
+**Computador sem acesso à internet**
 
 Diagnóstico e resolução de falha de conectividade utilizando comandos do PowerShell.
 
 📄 Acessar laboratório:  
-01-sem-internet-windows.md
+[Computador sem acesso à internet](01-sem-internet-windows.md)
 
 ---
 
@@ -81,7 +81,7 @@ Durante o laboratório foram realizados:
 - Testes de conectividade com ping
 
 📂 Acessar laboratório:  
-https://github.com/lucasmthrj-jpg/IT-support-portfolio/tree/main/03-redes/configuracao-dhcp-roteador-wireless
+[Configuração de DHCP em roteador wireless](https://github.com/lucasmthrj-jpg/IT-support-portfolio/tree/main/03-redes/configuracao-dhcp-roteador-wireless)
 
 ---
 
