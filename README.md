@@ -12,11 +12,11 @@ O objetivo deste portfólio é demonstrar habilidades em diagnóstico e resoluç
 
 ## Instalação e configuração do Windows
 → Ver laboratório:  
-[Instalação do Windows](https://github.com/lucasmthrj-jpg/IT-support-portfolio/tree/main/01-instalacao-windows-vm)
+[Instalação do Windows](https://github.com/lucasmthrj-jpg/IT-support-portfolio/tree/main/01-instalacao-windows)
 
 ## Troubleshooting de computadores
 → Ver laboratório:  
-[Computador sem acesso à internet](01-sem-internet-windows.md)
+[Computador sem acesso à internet](https://github.com/lucasmthrj-jpg/IT-support-portfolio/tree/main/02-troubleshooting-computadores)
 
 ## Configuração básica de redes
 → Ver laboratório:  
@@ -49,7 +49,7 @@ O objetivo deste portfólio é demonstrar habilidades em diagnóstico e resoluç
 Documentação do processo de criação de máquina virtual e instalação do sistema operacional Windows.
 
 📂 Acessar laboratório:  
-[Instalação e Configuração do Windows](https://github.com/lucasmthrj-jpg/IT-support-portfolio/tree/main/01-instalacao-windows-vm)
+[Instalação e Configuração do Windows](https://github.com/lucasmthrj-jpg/IT-support-portfolio/tree/main/01-instalacao-windows)
 
 ---
 
@@ -63,8 +63,8 @@ Laboratórios práticos simulando problemas comuns encontrados no suporte técni
 
 Diagnóstico e resolução de falha de conectividade utilizando comandos do PowerShell.
 
-📄 Acessar laboratório:  
-[Computador sem acesso à internet](01-sem-internet-windows.md)
+📂 Acessar laboratório:  
+[Computador sem acesso à internet](https://github.com/lucasmthrj-jpg/IT-support-portfolio/tree/main/02-troubleshooting-computadores)
 
 ---
 
