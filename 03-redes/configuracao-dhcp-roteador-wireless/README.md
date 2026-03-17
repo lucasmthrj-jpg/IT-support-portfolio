@@ -24,4 +24,4 @@ Praticar conceitos fundamentais de redes:
 
 A documentação completa do laboratório, incluindo imagens e explicações passo a passo, está disponível aqui:
 
-➡️ [Ver documentação completa do laboratório](laboratorio-dhcp.md)
+➡️ [Ver laboratório completo](laboratorio-dhcp.md)
