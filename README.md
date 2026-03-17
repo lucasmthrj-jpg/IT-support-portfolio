@@ -10,29 +10,34 @@ O objetivo deste portfólio é demonstrar habilidades em diagnóstico e resoluç
 
 # Habilidades em desenvolvimento
 
-- Instalação e configuração do Windows  
-  → Ver laboratório: [Instalação do Windows](01-instalacao-windows)
+**Instalação e configuração do Windows**
 
-- Troubleshooting de computadores  
-  → Ver laboratório: [Computador sem acesso à internet](02-troubleshooting-computadores/01-sem-internet-windows.md)
+→ Ver laboratório: Instalação do Windows
 
-- Configuração básica de redes
+**Troubleshooting de computadores**
 
-- Suporte técnico ao usuário
+→ Ver laboratório: Computador sem acesso à internet
 
-- Diagnóstico de problemas de hardware e software
+**Configuração básica de redes**
 
-- Uso básico de Linux para administração e diagnóstico de sistemas
+→ Ver laboratório: Configuração de DHCP em roteador wireless
+
+**Suporte técnico ao usuário**
+
+**Diagnóstico de problemas de hardware e software**
+
+**Uso básico de Linux para administração e diagnóstico de sistemas**
 
 ---
 
 # Ferramentas e tecnologias
 
-- Windows 10 / 11  
-- Linux  
-- VirtualBox  
-- Redes TCP/IP  
-- PowerShell  
+- Windows 10 / 11
+- Linux
+- VirtualBox
+- Cisco Packet Tracer
+- Redes TCP/IP
+- PowerShell
 - Terminal Linux (Bash)
 
 ---
@@ -44,7 +49,7 @@ O objetivo deste portfólio é demonstrar habilidades em diagnóstico e resoluç
 Documentação do processo de criação de máquina virtual e instalação do sistema operacional Windows.
 
 📂 Acessar laboratório:  
-[Instalação e Configuração do Windows](01-instalacao-windows)
+https://github.com/lucasmthrj-jpg/IT-support-portfolio/tree/main/01-instalacao-windows-vm
 
 ---
 
@@ -52,14 +57,31 @@ Documentação do processo de criação de máquina virtual e instalação do si
 
 Laboratórios práticos simulando problemas comuns encontrados no suporte técnico.
 
-### Casos documentados
+Casos documentados:
 
-**Computador sem acesso à internet**
+Computador sem acesso à internet
 
 Diagnóstico e resolução de falha de conectividade utilizando comandos do PowerShell.
 
 📄 Acessar laboratório:  
-[01-sem-internet-windows.md](02-troubleshooting-computadores/01-sem-internet-windows.md)
+01-sem-internet-windows.md
+
+---
+
+## 3 - Configuração de DHCP em Roteador Wireless
+
+Laboratório de redes realizado no Cisco Packet Tracer simulando a configuração de um roteador wireless atuando como servidor DHCP para distribuição automática de endereços IP em uma rede local.
+
+Durante o laboratório foram realizados:
+
+- Configuração do roteador
+- Alteração da rede local
+- Configuração do DHCP
+- Atribuição automática de IP aos computadores
+- Testes de conectividade com ping
+
+📂 Acessar laboratório:  
+https://github.com/lucasmthrj-jpg/IT-support-portfolio/tree/main/03-redes/configuracao-dhcp-roteador-wireless
 
 ---
 
