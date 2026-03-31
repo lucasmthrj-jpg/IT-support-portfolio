@@ -17,6 +17,7 @@ O objetivo deste portfólio é demonstrar habilidades em diagnóstico e resoluç
 
 → Ver laboratório:
 [Caso 1 - Computador sem acesso à internet (Windows)](https://github.com/lucasmthrj-jpg/IT-support-portfolio/tree/main/02-troubleshooting-computadores)
+
 [Caso 2 - Computador sem IP (Windows PowerShell)](https://github.com/lucasmthrj-jpg/IT-support-portfolio/tree/main/02-troubleshooting-computadores/computador-sem-ip)
 
 **Configuração básica de redes**
