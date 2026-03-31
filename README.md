@@ -11,11 +11,13 @@ O objetivo deste portfólio é demonstrar habilidades em diagnóstico e resoluç
 **Instalação e configuração do Windows**
 
 → Ver laboratório:
+
 [Instalação do Windows](https://github.com/lucasmthrj-jpg/IT-support-portfolio/tree/main/01-instalacao-windows)
 
 **Troubleshooting de computadores**
 
 → Ver laboratório:
+
 [Caso 1 - Computador sem acesso à internet (Windows)](https://github.com/lucasmthrj-jpg/IT-support-portfolio/tree/main/02-troubleshooting-computadores)
 
 [Caso 2 - Computador sem IP (Windows PowerShell)](https://github.com/lucasmthrj-jpg/IT-support-portfolio/tree/main/02-troubleshooting-computadores/computador-sem-ip)
@@ -23,6 +25,7 @@ O objetivo deste portfólio é demonstrar habilidades em diagnóstico e resoluç
 **Configuração básica de redes**
 
 → Ver laboratório:
+
 [Configuração de DHCP em roteador wireless](https://github.com/lucasmthrj-jpg/IT-support-portfolio/tree/main/03-redes/configuracao-dhcp-roteador-wireless)
 
 ## Outras habilidades em desenvolvimento
