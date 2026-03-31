@@ -78,4 +78,6 @@ Após a correção, o computador voltou a receber um IP válido da rede `192.168
 
 ## 📚 O que aprendi
 
-Como identificar problemas de conectividade causados por configuração incorreta de IP, validar se o computador está na mesma rede do gateway e utilizar comandos como `ipconfig` e `ping` para diagnóstico e verificação da solução.
+- Como identificar problemas de conectividade causados por configuração incorreta de IP.  
+- Como validar se o computador está na mesma rede do gateway.  
+- Como utilizar comandos como `ipconfig` e `ping` para diagnóstico e verificação da solução.
