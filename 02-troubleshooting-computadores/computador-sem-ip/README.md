@@ -2,7 +2,7 @@
 
 ## 🧠 Cenário
 
-![Topologia da rede](img/topologia-conectada.png)
+![Topologia da rede conectada](https://github.com/lucasmthrj-jpg/IT-support-portfolio/blob/main/02-troubleshooting-computadores/computador-sem-ip/img/topologia-conectada.png)
 
 Um computador não conseguia acessar a rede, mesmo estando fisicamente conectado ao roteador.
 
@@ -18,7 +18,7 @@ Diagnosticar e resolver um problema de conectividade causado por configuração 
 
 Antes da simulação do problema, os computadores estavam configurados para receber IP automaticamente via DHCP.
 
-![PC com IP via DHCP](img/pc-com-ip-dhcp.png)
+![PC com IP via DHCP](https://github.com/lucasmthrj-jpg/IT-support-portfolio/blob/main/02-troubleshooting-computadores/computador-sem-ip/img/pc-com-ip-dhcp.png)
 
 ---
 
@@ -26,7 +26,7 @@ Antes da simulação do problema, os computadores estavam configurados para rece
 
 Para simular a falha, um dos computadores foi configurado manualmente com um endereço IP em uma rede diferente da rede do roteador.
 
-![PC com IP configurado errado](img/pc-ip-configurado-errado.png)
+![PC com IP configurado errado](https://github.com/lucasmthrj-jpg/IT-support-portfolio/blob/main/02-troubleshooting-computadores/computador-sem-ip/img/pc-ip-configurado-errado.png)
 
 Exemplo da configuração incorreta:
 
@@ -48,7 +48,7 @@ Essa diferença impedia a comunicação com o gateway e com os demais dispositiv
 
 O primeiro passo foi verificar o endereço IP do computador com problema.
 
-![ipconfig com problema](img/ipconfig-pc-com-problema.png)
+![ipconfig com problema](https://github.com/lucasmthrj-jpg/IT-support-portfolio/blob/main/02-troubleshooting-computadores/computador-sem-ip/img/ipconfig-pc-com-problema.png)
 
 ---
 
@@ -56,7 +56,7 @@ O primeiro passo foi verificar o endereço IP do computador com problema.
 
 Foi realizado um teste de comunicação com o gateway da rede.
 
-![Ping para o gateway falhando](img/ping-gateway-falhando.png)
+![Ping para o gateway falhando](https://github.com/lucasmthrj-jpg/IT-support-portfolio/blob/main/02-troubleshooting-computadores/computador-sem-ip/img/ping-gateway-falhando.png)
 
 Com isso, foi possível confirmar que o computador não estava na mesma rede do roteador.
 
@@ -72,7 +72,7 @@ A correção foi feita retornando a configuração de IP de **Static** para **DH
 
 Após a correção, o computador voltou a receber um IP válido da rede `192.168.0.x` e a comunicação com o gateway foi restabelecida com sucesso.
 
-![Problema resolvido](img/problema-resolvido-ping-ok.png)
+![Problema resolvido](https://github.com/lucasmthrj-jpg/IT-support-portfolio/blob/main/02-troubleshooting-computadores/computador-sem-ip/img/problemaresolvido.png)
 
 ---
 
