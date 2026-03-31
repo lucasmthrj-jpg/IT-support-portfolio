@@ -1,7 +1,8 @@
 # 💻 Computador não recebe endereço IP (DHCP)
 
 ## 🧠 Cenário
-![Topologia inicial](img/topologia-inicial-dhcp.png)
+
+![Topologia da rede](img/topologia-conectada.png)
 
 Um computador não conseguia acessar a rede, mesmo estando fisicamente conectado ao roteador.
 
@@ -17,6 +18,8 @@ Diagnosticar e resolver o problema de conectividade relacionado à configuraçã
 
 O computador estava com um endereço IP configurado manualmente em uma rede diferente da rede do roteador.
 
+![IP configurado incorretamente](img/pc-ip-configurado-errado.png)
+
 Exemplo:
 
 - IP configurado: 192.168.50.10  
@@ -31,8 +34,15 @@ Isso impedia a comunicação com o gateway e com outros dispositivos da rede.
 Etapas realizadas:
 
 1. Verificação do endereço IP com `ipconfig`  
+
+![ipconfig com problema](img/ipconfig-pc-com-problema.png)
+
 2. Identificação de rede incorreta (192.168.50.x)  
+
 3. Teste de conectividade com o gateway utilizando `ping`  
+
+![ping falhando](img/ping-gateway-falhando.png)
+
 4. Confirmação de falha de comunicação  
 
 ---
@@ -51,6 +61,8 @@ Após a correção:
 - O computador recebeu um IP válido (192.168.0.x)  
 - A comunicação com o gateway foi restabelecida  
 - A conectividade da rede voltou a funcionar normalmente  
+
+![problema resolvido](img/problema-resolvido-ping-ok.png)
 
 ---
 
