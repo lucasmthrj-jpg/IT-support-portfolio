@@ -1,6 +1,7 @@
 # 💻 Computador não recebe endereço IP (DHCP)
 
 ## 🧠 Cenário
+![Topologia inicial](img/topologia-inicial-dhcp.png)
 
 Um computador não conseguia acessar a rede, mesmo estando fisicamente conectado ao roteador.
 
