@@ -1,7 +1,9 @@
 # IT Support Portfolio
 
 Olá! Meu nome é Lucas.
+
 Estou iniciando minha carreira na área de Suporte de TI e este repositório foi criado para documentar meus estudos e laboratórios práticos.
+
 O objetivo deste portfólio é demonstrar habilidades em diagnóstico e resolução de problemas comuns em computadores, sistemas operacionais e redes.
 
 ## Habilidades em desenvolvimento
