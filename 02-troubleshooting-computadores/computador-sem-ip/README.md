@@ -10,62 +10,72 @@ Um computador não conseguia acessar a rede, mesmo estando fisicamente conectado
 
 ## 🎯 Objetivo
 
-Diagnosticar e resolver o problema de conectividade relacionado à configuração de endereço IP.
+Diagnosticar e resolver um problema de conectividade causado por configuração incorreta de endereço IP.
+
+---
+
+## ✅ Estado inicial da rede
+
+Antes da simulação do problema, os computadores estavam configurados para receber IP automaticamente via DHCP.
+
+![PC com IP via DHCP](img/pc-com-ip-dhcp.png)
 
 ---
 
 ## ⚠️ Problema
 
-O computador estava com um endereço IP configurado manualmente em uma rede diferente da rede do roteador.
+Para simular a falha, um dos computadores foi configurado manualmente com um endereço IP em uma rede diferente da rede do roteador.
 
-![IP configurado incorretamente](img/pc-ip-configurado-errado.png)
+![PC com IP configurado errado](img/pc-ip-configurado-errado.png)
 
-Exemplo:
+Exemplo da configuração incorreta:
 
-- IP configurado: 192.168.50.10  
-- Rede correta: 192.168.0.x  
+- IP configurado: `192.168.50.10`  
+- Máscara: `255.255.255.0`  
+- Gateway: `192.168.50.1`
 
-Isso impedia a comunicação com o gateway e com outros dispositivos da rede.
+Rede correta do ambiente:
+
+- `192.168.0.x`
+
+Essa diferença impedia a comunicação com o gateway e com os demais dispositivos da rede.
 
 ---
 
 ## 🔍 Diagnóstico
 
-Etapas realizadas:
+### 1. Verificação das configurações de rede
 
-1. Verificação do endereço IP com `ipconfig`  
+O primeiro passo foi verificar o endereço IP do computador com problema.
 
 ![ipconfig com problema](img/ipconfig-pc-com-problema.png)
 
-2. Identificação de rede incorreta (192.168.50.x)  
+---
 
-3. Teste de conectividade com o gateway utilizando `ping`  
+### 2. Teste de conectividade com o gateway
 
-![ping falhando](img/ping-gateway-falhando.png)
+Foi realizado um teste de comunicação com o gateway da rede.
 
-4. Confirmação de falha de comunicação  
+![Ping para o gateway falhando](img/ping-gateway-falhando.png)
+
+Com isso, foi possível confirmar que o computador não estava na mesma rede do roteador.
 
 ---
 
 ## 🛠️ Solução
 
-- Alteração da configuração de IP de **Static** para **DHCP**
-- Obtenção automática de endereço IP válido fornecido pelo roteador
+A correção foi feita retornando a configuração de IP de **Static** para **DHCP**, permitindo que o roteador entregasse automaticamente um endereço válido para o computador.
 
 ---
 
 ## ✅ Resultado
 
-Após a correção:
+Após a correção, o computador voltou a receber um IP válido da rede `192.168.0.x` e a comunicação com o gateway foi restabelecida com sucesso.
 
-- O computador recebeu um IP válido (192.168.0.x)  
-- A comunicação com o gateway foi restabelecida  
-- A conectividade da rede voltou a funcionar normalmente  
-
-![problema resolvido](img/problema-resolvido-ping-ok.png)
+![Problema resolvido](img/problema-resolvido-ping-ok.png)
 
 ---
 
 ## 📚 O que aprendi
 
-Como identificar problemas de rede relacionados à configuração de IP e a importância de utilizar DHCP em ambientes onde a atribuição automática de endereços é necessária.
+Como identificar problemas de conectividade causados por configuração incorreta de IP, validar se o computador está na mesma rede do gateway e utilizar comandos como `ipconfig` e `ping` para diagnóstico e verificação da solução.
